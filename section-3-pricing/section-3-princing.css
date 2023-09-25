@@ -1,0 +1,121 @@
+/* debut du section 3 pricing */
+.section-3-4{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+}
+.pricing{
+    display: flex;
+    /* background-color: blue; */
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.pricing-titre , .commentaire-titre{
+    text-align: center;
+
+}
+.pricing-hr{
+    width: 20%;
+    border: 0.2em solid #009282;
+    display: block;
+    margin: 0 auto;
+}
+.carte-pricing {
+    display: grid;
+    grid-template-columns:repeat(auto-fill , 400px);
+    width: 100%;
+    /* background-color: black; */
+    margin: 0 auto;
+    align-items: center; 
+    justify-content: center;
+    /* padding-top: -25px; */
+}
+.carte-pricing-un{
+    border: 1px solid #EEF9FF;
+    height: 300px;
+    padding-left: 10%;
+    /* box-shadow: 1 #06A3DA; */
+}
+.carte-pricing-un-deux , .profil-commentaire-un{
+    background-color: #EEF9FF;
+}
+
+.carte-pricing-un h3 , .name-commentaire{
+    color: #06A3DA;
+    /* padding-left: 5%; */
+}
+.carte-pricing-un p , .commentaire-lorem , .pricing-liste{
+    font-size: 13px;
+
+}
+.pricing-prix{
+    font-size: 25px;
+}
+
+.pricing-liste{
+    list-style-type: none;
+    /* font-size: 12px; */
+    display: inline;
+    align-self: flex-start;
+    justify-content: space-around;
+}
+.bouton-pricing{
+    background-color: #06A3DA;
+    color: white;
+    text-align: center;
+    border: none;
+    margin-top: 15%;
+    height: 25px;
+    font-size: 15px;
+}
+.icone-princing{
+    float:right
+}
+/* fin du section 3 pricing */
+/* debut du section 4 commentaire */
+.section-commentaire{
+    display: flex;
+    /* background-color: blue; */
+     flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+
+}
+.section-commentaire-un{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    width: 100%;
+    /* background-color: black;  */
+    margin: 0 auto;
+    align-items: center; 
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.carte-commentaire{
+    display: grid;
+    grid-template-columns:repeat(auto-fill , 400px);
+    width: 100%;
+    /* background-color: black; */
+    margin: 0 auto;
+    align-items: center; 
+    justify-content: center;
+    
+}
+.profil-commentaire{
+
+}
+.image-commentaire{
+    width: 50px;
+    height: 50px;
+}
+
+
+/* fin du section 4 commentaire */
