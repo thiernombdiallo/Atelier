@@ -1,0 +1,48 @@
+.test{
+    text-align: center;
+}
+.client{
+    display: flex;
+    gap: 10px;
+    margin-top: 100px;
+}
+.profession{
+    margin-top: 60px;
+    margin-left: -95px;
+}
+.name{
+    margin-left: 10px;
+    background-color: #EEF9FF;
+    width: 350px;
+    height: 200px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px;
+
+}
+.names{
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10px;
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px;
+
+}
+#image{
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.prof{
+    margin-top: 40px;
+    color: #6BB3E0;
+}
+.dolor{
+    margin-left:25px ;
+}
+.grip-container{
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}

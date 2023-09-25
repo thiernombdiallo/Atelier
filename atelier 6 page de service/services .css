@@ -1,0 +1,7 @@
+.ourservices{
+ margin-top: 450px;
+ z-index: 2;
+}
+.security{
+    grid-template-columns: 1fr;
+}
