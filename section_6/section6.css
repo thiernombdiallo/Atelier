@@ -61,6 +61,38 @@
 .blocage .blocage1 .col{
     color: #06a3da;
 }
+.t{
+    color: #06A3DA;
+    width: 15px;
+    height: 10px;
+    
+}
+.tt{
+    color: #06A3DA;
+    width: 75px;
+    height: 10px;
+    margin-right: 15vh;   
 
+}
 
+/* Default styles */
+/* Add your existing CSS here */
 
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .blocage {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Media query for screens smaller than 576px */
+  @media (max-width: 576px) {
+    .section6-hautt {
+      font-size: 18px;
+    }
+    .blocage .blocage1 .im {
+      height: 150px;
+    }
+    /* Add more responsive styles as needed */
+  }
+  

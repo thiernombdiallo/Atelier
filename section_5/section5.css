@@ -77,3 +77,39 @@ body{
     margin-left: 1.3vh;
     
 }
+@media (max-width: 768px) {
+    .section5 {
+        grid-template-columns: 1fr; /* Une seule colonne pour les écrans plus petits */
+        gap: 10px; /* Augmenter l'espacement entre les éléments */
+    }
+
+    .separation .trait,
+    .separation .traitt {
+        display: none; /* Masquer les traits pour les écrans plus petits */
+    }
+
+    .flou {
+        display: none; /* Masquer l'élément "flou" pour les écrans plus petits */
+    }
+}
+
+/* Pour les mobiles */
+@media (max-width: 576px) {
+    
+    .
+.section5 {
+        grid-template-columns: 1fr; /* Une seule colonne pour les écrans plus petits */
+        gap: 10px; /* Augmenter l'espacement entre les éléments */
+    }
+
+    .separation .trait,
+    
+   
+.separation .traitt {
+        display: none; /* Masquer les traits pour les écrans plus petits */
+    }
+
+    .flou {
+        display: none; /* Masquer l'élément "flou" pour les écrans plus petits */
+    }
+}
