@@ -72,7 +72,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam porro possimus minus officia. Totam id deleniti, aliquid consequuntur iusto animi dolorum possimus, ducimus voluptatem voluptatum eius quas dolorem hic fuga!</p>
                 <div class="commenteur_bd">
                     <h1>3 Comments</h1>
-                    <hr>
+                    <hr class="moving-hr">
                     <div class="commentaire_de_john_bd">
                         <img src="../image/team-3.jpg" alt=""class="commenteur_image">
                         <div class="texte_commenteur">
@@ -103,23 +103,26 @@
                 <div >
                     <div class="pagination_bd">
                         <h1>Leave A Comment</h1>
-                        <hr>
+                        <hr class="moving-hr">
                     </div>
                     <section class="formulaire">
                         <div>
+                            <form action="">
                            <div class="input-tetu">
-                            <input type="text" placeholder="Your name">
-                            <input  type="email" placeholder="Your email">
+                            <input type="text" id="nom" placeholder="Your name">
+                            <input  type="email" id="email" placeholder="Your email">
                            </div>
                            <div class="sujet">
-                            <input type="text" placeholder="Website">
+                            <input type="text" id="site" placeholder="Website">
                            </div>
                            <div>
-                            <textarea class="message" id="" cols="30" rows="10" placeholder="Comment"></textarea>
+                            <textarea class="message" id="commentaire" cols="30" rows="10" placeholder="Comment"></textarea>
                            </div>
                            <div>
-                            <button class="pousse">Leave Your Comment</button>
+                            <button class="pousse" type="button" onclick="validerFormulaire()">Leave Your Comment</button>
                            </div>
+                           </form>
+                           <p id="message"></p>
                         </div>
                     </section>
                 </div>
@@ -131,7 +134,7 @@
         </div>
         <div class="grid-item categorie">
             <h1>Categories</h1>
-            <hr>
+            <hr class="moving-hr">
             <div class="categorie_bd">
                 <p><i class="fa-solid fa-arrow-right" style="color: #000000;"></i>Web Design</p>
                 <p><i class="fa-solid fa-arrow-right" style="color: #000000;"></i>Web Development</p>
@@ -143,7 +146,7 @@
         </div>
         <div class="grid-item post">
             <h1>Recent Post</h1>
-            <hr>
+            <hr class="moving-hr">
             <div class="recent-post">
                 <img src="../image/blog-1.jpg" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -174,7 +177,7 @@
         </div>
         <div class="grid-item tag">
             <h1>Tag Cloud</h1>
-            <hr>
+            <hr class="moving-hr">
             <div>
                 <button class="tag_bd">Design</button>
                 <button class="tag_bd">Development</button>
@@ -193,7 +196,7 @@
         </div>
         <div class="grid-item text">
             <h1>Plain Text</h1>
-            <hr>
+            <hr class="moving-hr">
             <div class="text_bd">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia voluptas nulla itaque culpa in totam, quas aspernatur officiis molestias reiciendis laboriosam eius repellat, fugiat quo impedit harum quasi. Aspernatur, neque!</p>
                 <button class="text_bd_bouton">Read More</button>
@@ -224,7 +227,7 @@
                 </div>
                 <div>
                     <h1>Get In Touch</h1>
-                    <hr>
+                    <hr class="moving-hr">
                     <ul class="ul_un_footer_bd">
                         <li><i class="fa-solid fa-location-dot"></i> 123 Street, New York, USA</li>
                         <li><i class="fa-solid fa-phone"></i> +0123456789</li>
@@ -240,7 +243,7 @@
                 </div>
                 <div>
                     <h1>Quick Links</h1>
-                    <hr>
+                    <hr class="moving-hr">
                     <ul>
                         <li><i class="fa-solid fa-arrow-right" style="color: #fff;"></i>Home</li>
                         <li><i class="fa-solid fa-arrow-right" style="color: #fff;"></i>About Us</li>
@@ -252,7 +255,7 @@
                 </div>
                 <div>
                     <h1>Popular Links</h1>
-                    <hr>
+                    <hr class="moving-hr">
                     <ul>
                         <li><i class="fa-solid fa-arrow-right" style="color: #fff;"></i>Home</li>
                         <li><i class="fa-solid fa-arrow-right" style="color: #fff;"></i>About Us</li>
@@ -269,6 +272,6 @@
         </div>
         </div>
     </div>
-    
+    <script src="page_blog_detail.js"></script>
 </body>
 </html>
