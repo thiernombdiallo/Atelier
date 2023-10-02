@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.piedDePage{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    background-color: #091E3E;
+    justify-content: center;
+    text-align: center;
+}
+
+footer .startup{
+    background-color: #06A3DA;
+    height: 310px;
+}
+
+.getintouch{
+    background-color: #091E3E;
+    height: 260px;
+}
+
+.quick-links{
+    background-color: #091E3E;
+    height: 260px;
+}
+
+.popular-links{
+    background-color: #091E3E;
+    height: 260px;
+}
+
+footer h1, footer p{
+    color: #ffffff;
+}
+footer h1{
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.startup input, button{
+    padding: 10px 10px;
+    margin-top: 10px;
+    border: none;
+    color: #ffffff;
+}
+
+footer button{
+    background-color: #091E3E;
+}
+
+footer button:hover{
+    background-color: #ffffff;
+}
+
+footer h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 25px;
+    text-align: start;
+    margin-left: 55px;
+    /* border-bottom: 4px solid #06A3DA;
+    width: 150px; */
+}
+
+.line{
+    width: 25%;
+    margin-left: 55px;
+    color: #06A3DA;
+    outline: 2px solid #06A3DA;
+    
+}
+
+.myIcons{
+    text-align: start;
+    padding-left: 10px;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 45px;
+}
+
+.myOthersIcons{
+    margin-top: 25px;
+    font-size: 16px;
+    text-align: start;
+    margin-left: 55px;
+}
+
+.myOthersIcons i {
+    padding: 2px 5px;
+    border: 1px solid #06A3DA;
+    background-color: #06A3DA;
+}
+
+.mesFleches{
+    text-align: start;
+    margin-left: 52px;
+    margin-top: 20px;
+}
+
+.mesFleches a, i{
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.copyright{
+    background-color: #001029;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    margin-top: -40px;
+}
+
+.copyright h5{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.copyright i{
+    font-size: 10px;
+}
+
+.undr{
+    text-decoration: underline #969696;
+}
+
+@media (max-width: 768px){
+    .piedDePage{
+        display: grid;
+        grid: repeat(1, 20%) / auto-flow 80px;
+    }
+}
