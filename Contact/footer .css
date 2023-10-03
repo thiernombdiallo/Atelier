@@ -1,0 +1,64 @@
+.container{
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 50px;
+}
+.staf{
+    background-color: #06A3DA;
+    width: 300px;
+    
+}
+.sign{
+    height: 30px;
+    width: 70px;
+    background-color: black;
+    color: white;
+}
+#name{
+    height: 25px;
+    margin-left: 2px;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+}
+.twitter{
+    background-color: #06A3DA;
+    height: 20px;
+    width: 25px;
+}
+.facebook{
+    background-color: #06A3DA;
+    height: 20px;
+    width: 25px;
+}
+.link{
+    background-color: #06A3DA;
+    height: 20px;
+    width: 25px;
+}
+.insta{
+    background-color: #06A3DA;
+    height: 20px;
+    width: 25px;
+}
+.youtube{
+    background-color: #06A3DA;
+    height: 20px;
+    width: 25px;
+}
+.links{
+    width: 100px;
+}
+.code{
+    color: white;
+    background-color: black;
+    height: 60px;
+    text-align: center;
+   margin-top:-50px
+}
+.écris{
+  text-align: center;
+  margin-top: 30px;
+}

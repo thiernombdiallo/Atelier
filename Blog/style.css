@@ -1,0 +1,330 @@
+.Section_Blog{
+    display: grid;
+    grid-template-columns: 60% 20%;
+    /* gap:10px; */
+    justify-content:center;
+    /* align-items: center; */
+}
+
+
+
+.Card_Blog{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 30px;
+}
+.Card_Blog_img{
+    width: 400px;
+    height: 400px;
+    background-color: #EEF9FF;
+}
+
+.Card_Blog_img img{
+    width: 400px;
+    height: 220px;
+}
+
+.Card_Blog span,h3{
+    padding: 5px;
+}
+
+.Card_Blog h3{
+    font-size: 20px;
+}
+.Card_Blog p{
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.Card_Blog_img i{
+    color: #06A3DA;
+}
+
+.Blog_right{
+    height: 430px;
+    background-color: #EEF9FF;
+    margin-bottom: 10px;
+}
+
+.Blog_right1 p{
+    /* height: 430px; */
+    background-color: #EEF9FF;
+    padding: 1em;
+    margin-bottom: 10px;
+}
+
+.Blog_right1 h3{
+    border-bottom: 2px solid #06A3DA;
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+.Blog_right_post .Post{
+    display: flex;
+    background-color: #EEF9FF;
+    margin-bottom: 10px;
+}
+.Blog_right_post .Post img{
+    width: 70px;
+    height: 70px;
+}
+
+.Blog_right_post .Post p{
+    padding: 1em;
+}
+
+
+.Blog_right_image img{
+  width: 100%;
+  height: 200px;
+}
+
+.Text_Cloud{
+    display: flex;
+    gap: 5px;
+}
+
+.Blog_right_Cloud p{
+    /* height: 430px; */
+    background-color: #EEF9FF;
+    padding: 0.5em;
+    margin-bottom: 10px;
+    width: 70px;
+}
+
+.Blog_right_Text{
+    /* height: 430px; */
+    background-color: #EEF9FF;
+    padding-top: 1em;
+   
+    /* width: 300px; */
+   
+}
+
+.Blog_right_Text p{
+    text-align: center;
+    padding: 1em;
+}
+
+.Blog_right_Text .Read_More{
+    padding: 0.5em;
+    background-color: #06A3DA;
+    color: white;
+    width: 90px;
+    margin :auto;
+}
+
+.Footer_Logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.Blog_right_input{
+    display: flex;
+    justify-content: center;
+}
+
+.Blog_right_input input{
+    padding: 0.5em;
+    height: 20px;
+    width: 260px;
+}
+
+.Blog_right_input p{
+    padding: 0.5em;
+    background-color:#06A3DA;
+    color: white;
+    margin-top: -1px;
+}
+@media only screen and (max-width: 800px) {
+    .Section_Blog{
+        display: grid;
+        grid-template-columns: 100%;
+        /* gap:0px; */
+        justify-content:center;
+        align-items: center;
+    }
+
+}
+
+.Footer_Logo img{
+    width: 130px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .Section_Blog{
+        display: grid;
+        grid-template-columns: auto;
+        /* gap:10px; */
+        justify-content:center;
+        /* align-items: center; */
+        /* align-items: center; */
+    }
+
+   .Blog_right_input{
+      justify-content: center;
+   }
+
+   .Blog_right1{
+     max-width: 800px;
+     margin: auto;
+   }
+
+   .Blog_right_post{
+      max-width: 800px;
+      margin: auto;
+   }
+
+   .Blog_right_image img{
+      display: block;
+      width: auto;
+      height: 280px;
+      margin: auto;
+   
+   }
+
+   .Blog_right_Cloud .Text_Cloud{
+    justify-content: center;
+   }
+
+   
+
+}
+
+
+/* diminuer la taille des icons, la couleurs des textes et les décaler vers la droite */
+.iconGauche{
+    font-size: 11px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 6px;
+}
+
+
+/* aligner les icones des reseaux, diminuer leurs tailles, les centrer à droite */
+.IconDroite{
+    display: flex;
+    float: right;
+    padding-right: 30px;
+    margin-top: -16px;
+    font-size: 11px;
+}
+
+
+/* creer des espacements en les icones, mettre des bordures en forme de cercle pour chacun */
+.IconDroite a i{
+    padding: 4px 4px;
+    border: 1px solid #fff;
+    border-radius: 90%;
+    margin-right: 5px;
+}
+
+
+/* mettre une couleur de background bleu foncée; modifier la taille et la hauteur */
+.icons{
+    background-color: #091E3E;
+    width: 100%;
+    height: 30px;
+}
+
+/* creer des espacements entre les icones de gauche */
+.iconGauche span{
+    padding: 0 5px;
+}
+
+/* mettre l'image de la banniere  */
+.menu{
+    background-image: url(../Service/banniere.jpg);
+    height: 300px;
+    width: 100%;
+}
+
+/* Augmenter la taille du logo */
+.logo{
+    font-size: 37px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 17px;
+    padding-top: 15px;
+}
+
+/* aligner les liens du menu et les centrer */
+.navbar ul{
+    display: flex;
+    float: right;
+    margin-right: 35px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -35px;
+}
+
+/* changer la couleur des liens du menu et les remonter pour l'aligner avec le logo */
+li a{
+    color: #fff;
+    padding: 0 15px;
+}
+
+/* changer la couleur du bouton, l'espacement et enlever ses bordures */
+.btn1{
+    padding: 5px 20px;
+    background-color: #06a3da;
+    border: none;
+    color: #fff;
+    margin-top: -3px;
+}
+
+/* Changer l'affichage du bouton au survol */
+.btn1:hover{
+    background-color: #091E3E;
+}
+
+/* mettre la bordure qui englobe tout le menu */
+.conteneur{
+    border: 1px solid #5b5b5b;
+    padding-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+/* Changer l'affichage des éléments du menu au survol avec la propriete HOVER  */
+li a:hover{
+    border-bottom: 2px solid #06a3da;
+    padding-bottom: 25px;
+    color: #06a3da;
+}
+
+/* Changer la couleur du lien "about" */
+li .active{
+    color: #06a3da;
+    border-bottom: 1px solid #06a3da;
+    padding-bottom: 25px;
+}
+
+/* Centrer le titre de la banniere et changer la couleur */
+.description{
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+/* De la même facon sue le titre */
+h4{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+.navbar ul li{
+    list-style: none;
+}
